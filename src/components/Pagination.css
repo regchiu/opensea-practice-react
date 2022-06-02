@@ -1,0 +1,22 @@
+.pagination {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.pagination li {
+  user-select: none;
+  color: #dddddd;
+  float: left;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.pagination li.active,
+.pagination li.arrow { 
+  color: #000000;
+}
+
+.pagination li.disabled {
+  pointer-events: none;
+  color: #dddddd;
+}
