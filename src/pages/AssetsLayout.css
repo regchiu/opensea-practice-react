@@ -8,8 +8,7 @@
 }
 
 .asset-card {
-  margin-bottom: 20px;
-  margin-right: 20px;
+  margin: 20px;
 }
 
 a {
@@ -23,8 +22,8 @@ a {
   }
 
   .asset-card {
-    flex: 1 0 calc(25% - 20px);
-    max-width: calc(25% - 20px);
+    flex: 1 0 calc(25% - 40px);
+    max-width: calc(25% - 40px);
   }
 }
 
@@ -34,7 +33,7 @@ a {
   }
 
   .asset-card {
-    flex: 1 0 calc(50% - 20px);
-    max-width: calc(50% - 20px);
+    flex: 1 0 calc(50% - 40px);
+    max-width: calc(50% - 40px);
   }
 }
